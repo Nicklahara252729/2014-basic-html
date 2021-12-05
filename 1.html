@@ -1,0 +1,548 @@
+	
+
+    <html>
+            <head>
+                    <meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+                    <title>NKLF</title>
+    <meta name="description" content="[#]./Love You | Miss You | Need You NKLF ">
+                    <link rel="SHORTCUT ICON" href="http://www.hi5style.com/gr/heart.gif">
+                    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+                    <script type="text/javascript">
+    (function ( $ ) {
+        $.fn.typewrite = function ( options ) {
+            var settings = {
+                'selector': this,
+                'extra_char': '',
+                'delay':    100,
+                'trim':     false,
+                'callback': null
+            };
+            if (options) $.extend(settings, options);
+     
+            /* This extra closure makes it so each element
+             * matched by the selector runs sequentially, instead
+             * of all at the same time. */
+            function type_next_element(index) {
+                var current_element = $(settings.selector[index]);
+                var final_text = current_element.text();
+                if (settings.trim) final_text = $.trim(final_text);
+                current_element.html("").show();
+     
+                function type_next_character(element, i) {
+                    element.html( final_text.substr(0, i)+settings.extra_char );
+                    if (final_text.length >= i) {
+                        setTimeout(function() {
+                            type_next_character(element, i+1);
+                        }, settings.delay);
+                    }
+                    else {
+                        if (++index < settings.selector.length) {
+                            type_next_element(index);
+                        }
+                        else if (settings.callback) settings.callback();
+                    }
+                }
+                type_next_character(current_element, 0);
+            }
+            type_next_element(0);
+     
+            return this;
+        };
+    })(jQuery);            
+                    </script>
+                    <style type="text/css">
+                            body
+                            {
+                            background-color:#000000;
+                            background-image:url();
+                            background-repeat:no-repeat;
+                            background-position:center;
+                            background-attachment:fixed;
+                            #navbar-iframe-#navbar
+                            { display: block; }
+                            }              
+                            div#shutdown
+                            {
+                                    background: white;
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                            }
+                    #frm {
+                   
+                                    font-size: 2em;
+                                    font-weight: bold;
+                                    font-family: Chiller;
+                           
+                                    overflow: hidden;
+     
+                                            }
+            .hidden {
+                    visibility: hidden;
+            }
+                            div.text
+                            {
+                                    padding-top: 40px;
+                                    width: 30%;
+                                    padding: 10px;
+                                    text-shadow: #999 2px 2px 40px;
+                                    background: #000000;
+                                    height: 100%;
+                                    opacity: 0.5;
+                            }
+                            p.text
+                            {
+                                    color: white;
+                                    font-family: sans-serif,Times New Roman, Verdana;
+                                    display: none;
+                                    font-size: 14pt;
+                                    font-weight: bold;
+                            }
+                            div#youtube
+                            {
+                                    position: absolute;
+                                    right: 10px;
+                                    top: 30px;
+                                    width: 30%;
+                                    height: 315px;
+                                    display: none; 
+                                    padding: 20px;
+                                    border-radius: 10px;
+                                    border: 2px solid white;
+                                    opacity: 0.8;
+                                    background: #000000;           
+                            }
+                   
+    .genieland-huge
+    {
+    position:fixed;
+    right:10px;
+    top:60% ;
+    }
+    .genieland-huge img
+    {
+    float:right; clear:right; margin:1px;
+    -webkit-transition: all .0s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    }
+    .genieland-huge img:hover
+    {
+    -moz-transform: scale(1.2) rotate(6deg);
+    -webkit-transform: scale(1.2) rotate(6deg);
+     -o-transform: scale(1.2) rotate(6deg);
+    -ms-transform: scale(1.2) rotate(6deg);
+    transform: scale(1.2) rotate(6deg);
+     }
+    </style>
+                    <script type="text/javascript">
+                            $(document).ready(function(){
+                                    $("#shutdown").animate({'top':'+='+($(document).height()/2)+'px','height':'1px'},500,function(){
+                                    $("#shutdown").fadeOut("fast",function(){
+                                            var ytheight = Math.floor((($(document).width()/2.2)/1.7777))+"px";
+                                            var ytwidth = Math.floor(($(document).width()/2.2))+'px';
+                                           
+                                            $("#youtube iframe").attr("width",ytwidth);    
+                                            $("#youtube iframe").attr("height",ytheight);
+                                            $("#youtube").css("width",ytwidth);
+                                            $("#youtube").css("height",ytheight);                          
+                                            $("#youtube").slideDown();
+                                            printout();
+                                    });});                 
+                            });
+                            function printout()
+                            {
+                                    $('p.next:first').typewrite({
+                                            'delay': 70,
+                                                    'extra_char': '',
+                                            'trim': true,
+                                            'callback': function(){$('p.next:first').removeClass("next");printout();}
+                                            });
+                            }
+                            $(window).resize(function() {
+                                            var ytheight = Math.floor((($(document).width()/2.2)/1.7777))+"px";
+     
+                                            var ytwidth = Math.floor(($(document).width()/2.2))+'px';
+     
+                                           
+     
+                                            $("#youtube iframe").attr("width",ytwidth);    
+     
+                                            $("#youtube iframe").attr("height",ytheight);
+     
+                                            $("#youtube").css("width",ytwidth);
+     
+                                            $("#youtube").css("height",ytheight);
+                            });
+                    </script>
+    </head>
+    <body>
+    <script language="JavaScript1.2">var message="=================Fikri Maulana ======Love====== Annisa Martina Firdausa========02-05-2012======NKLF====================="
+    var neonbasecolor="#0000FF"
+    var neontextcolor="#00FF00"
+    var neontextcolor2="red"
+    var flashspeed=50  // speed of flashing in milliseconds
+    var flashingletters=5    // number of letters flashing in neontextcolor
+    var flashingletters2=5  // number of letters flashing in neontextcolor2 (0 to disable)
+    var flashpause=0    // the pause between flash-cycles in milliseconds
+    ///No need to edit below this line/////
+    var n=0
+    if (document.all||document.getElementById){
+    document.write('<font color="'+neonbasecolor+'">')
+    for (m=0;m<message.length;m++)
+    document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+    document.write('</font>')
+    }
+    else
+    document.write(message)
+    function crossref(number){
+    var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+    return crossobj
+    }
+    function neon(){
+    //Change all letters to base color
+    if (n==0){
+    for (m=0;m<message.length;m++)
+    crossref(m).style.color=neonbasecolor
+    }
+    //cycle through and change individual letters to neon color
+    crossref(n).style.color=neontextcolor
+    if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2
+    if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+    if (n<message.length-1)
+    n++
+    else{
+    n=0
+    clearInterval(flashing)
+    setTimeout("beginneon()",flashpause)
+    return
+    }
+    }
+    function beginneon(){
+    if (document.all||document.getElementById)
+    flashing=setInterval("neon()",flashspeed)
+    }
+    beginneon()</script></center>
+     
+     
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+    pageLanguage: 'en'
+    }, 'google_translate_element');
+    }
+    </script>
+    <div id="shutdown">&nbsp;</div>
+    <div id="youtube">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vas_OjT4BiA" frameborder="0" allowfullscreen></iframe>
+    <br>
+     
+    <br>
+    <br>
+    <font color="Red" face="Chiller" size="5">For You : </font><marquee behavior="scroll" direction="left" scrollamount="2" scrolldelay="50" width="80%"> <font color="red" face="Chiller" size="5"> NKLF - <font color="white" face="Chiller" size="5">Ichi </font> and <font color="blue" face="Chiller" size="5">Hatchi</font> </marquee>
+    <center><object type="application/x-shockwave-flash" width="160=" height="20" data="http://dl.greenskin.ir/tools/music/2.swf" id="dewplayerclassic" name="dewplayerclassic" __idm_id__="2074501121"><param name="wmode" value="transparent"><param name="movie" value=><param name="flashvars" value="mp3=http://www.jkt48.bimo-cyber.org/embed/Avril%20Lavigne_-_i_will_be.mp3&volume=100&autoreplay=1&autostart=1&randomplay="></object>
+    <div id="foot"><div id="bef-cop"><font color="white" size="3">Created By @FikriMaulana85</font></div>
+    </center>
+    </div>
+    <div class="genieland-huge">
+    <a href="https://www.facebook.com/annisa.m.firdausa" title="Annisa Martina Firdausa" target="_blank"><img alt="Annisa Martina Firdausa" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/230439_445155505526480_2040408953_n.jpg" width="115" height="115" /></a>
+    <a href="https://www.facebook.com/fikrisanghackers" title="Fikri Maulana" target="_blank"><img alt="Fikri Maulana" src="http://sphotos-g.ak.fbcdn.net/hphotos-ak-prn1/549517_556340951097499_6290011_n.jpg" width="115" height="115" /></a>
+    </div>
+    <div class="text">
+    <script type="text/javascript">
+    /*
+       =====
+             script: morphing text
+             author: Gerard Ferrandez - [Ge1doot]
+               date: 20 September, 2008
+               site: http://www.dhteumeuleu.com
+        inspiration: http://www.pwang.com/blog/archives/2006/04/post_100.html
+              quote: Scott Adams, 'The Dilbert Principle'
+                           ------------
+            license: CC-BY-NC - please do not remove this notice !
+       =====
+    */
+     
+    var mtx = function () {
+            /* ==== private variables & methods ==== */
+            var stop = false;
+            var frm, lineDelay, charDelay;
+            var colorText, colorMatch, colorGhost, elapsedTime;
+            var lineIndex = 0;
+            var lineChar  = [];
+            var animStack = [];
+            var colorStack = [];
+            /* ==== rgb color ==== */
+            function colorRGB (c) {
+                    return 'rgb('
+                            +Math.round(Math.min(255, Math.max(0, c[0])))+','
+                            +Math.round(Math.min(255, Math.max(0, c[1])))+','
+                            +Math.round(Math.min(255, Math.max(0, c[2])))+')';
+            }
+            /* ==== Easing functions ==== */
+            function Ease () {}
+            Ease.prototype = {
+                    ease : function () {
+                            this.m += this.s;
+                            this.x0 += (this.d * this.m * .0025);
+                            if (this.m == 20) this.s = -1;
+                            return this.x0;
+                    },
+                    init : function (x0, x1) {
+                            this.m = 0;
+                            this.s = 1;
+                            this.d = x1 - x0;
+                            this.x0 = x0;
+                    }
+            }
+     
+            /* ==== Load Lines ==== */
+            function loadLines () {
+                    // read text from HTML form
+                    text = document.forms.mtxform.text.value.split("\n");
+                    // loop through all lines
+                    for (var j = 0; j < text.length; j++) {
+                            var t = text[j];
+                            if (t) {
+                                    var n = t.length;
+                                    lineChar[j] = [];
+                                    // first pass: create characters capture RELATIVE offset coordinates
+                                    for (var i = 0; i < n; i++)
+                                            lineChar[j][i] = new Character(t.charAt(i), j);
+                                    // second pass: convert to absolute position
+                                    for (var i = 0, o; o = lineChar[j][i]; i++) {
+                                            if (o.c == "|") {
+                                                    // remove spaces
+                                                    lineChar[j].splice(i, 1);
+                                                    frm.removeChild(o.o);
+                                                    i--;
+                                            } else {
+                                                    // convert to absolute position and render
+                                                    o.o.style.position = "absolute";
+                                                    o.o.style.color = colorRGB(colorText);
+                                                    o.moveHTML();
+                                                    // push first line in animation stack
+                                                    if (j == 0) pushAnim (o, charDelay * i);
+                                            }
+                                    }
+                            }
+                    }
+            }
+            /* ==== Character Constructor ==== */
+            function Character (c, line) {
+                    if (c == " ") c = "|";
+                    this.c = c;
+                    // create HTML element and append the the container
+                    this.o = document.createElement("span");
+                    this.o.innerHTML = c;
+                    this.o.style.zIndex = 2;
+                    frm.appendChild(this.o);
+                    // capture relative offset positions !
+                    this.x0 = this.o.offsetLeft;
+                    this.y0 = -this.o.offsetHeight * 1.5;
+                    this.x1 = this.x0;
+                    this.x2 = this.x0;
+                    this.y1 = (line + 1) * this.o.offsetHeight;
+                    this.y2 = frm.offsetHeight;
+                    this.mx = new Ease();
+                    this.my = new Ease();
+                    this.c0 = [colorText[0], colorText[1], colorText[2]];
+            }
+            /* ==== Character functions ==== */
+            Character.prototype = {
+                    // ---- character animation ----
+                    anim : function (i) {
+                            // temporization
+                            if (this.delay > 0) {
+                                    if (elapsedTime)
+                                            this.delay -= new Date().getTime() - elapsedTime;
+                            } else {
+                                    // moving
+                                    this.x0 = this.mx.ease();
+                                    this.y0 = this.my.ease();
+                                    this.moveHTML();
+                                    if (!this.my.m && !this.mx.m) {
+                                            // remove from stack
+                                            animStack.splice(i, 1);
+                                            // remove dead characters
+                                            if (this.off) frm.removeChild(this.o);
+                                    }
+                            }
+                    },
+                    // ----- color fading ------
+                    color : function (i) {
+                            this.c0[0] += this.cr[0];
+                            this.c0[1] += this.cr[1];
+                            this.c0[2] += this.cr[2];
+                            this.ci++;
+                            this.o.style.color = colorRGB(this.c0);
+                            if (this.ci >= this.cs)
+                                    colorStack.splice(i, 1);
+                    },
+                    // ----- HTML positioning -----
+                    moveHTML : function () {
+                            this.o.style.left = Math.round(this.x0) + "px";
+                            this.o.style.top  = Math.round(this.y0) + "px";
+                    },
+                    // ----- init color fading ------
+                    colorFade : function (c1, steps) {
+                            this.cs = steps;
+                            this.cr = [(c1[0] - this.c0[0]) / steps, (c1[1] - this.c0[1]) / steps, (c1[2] - this.c0[2]) / steps];
+                            if (this.cr[0] != 0 || this.cr[1] != 0 || this.cr[2] != 0){
+                                    this.ci = 0;
+                                    colorStack.push (this);
+                            }
+                    }
+            }
+            /* ==== push character in the animation stack ==== */
+            function pushAnim (o, delay) {
+                    // init ease
+                    o.mx.init(o.x0, o.x1);
+                    o.my.init(o.y0, o.y1);
+                    o.delay = delay;
+                    // push stack
+                    animStack.push(o);
+            }
+            /* ==== next line ==== */
+            function nextLine () {
+                    if (lineIndex < lineChar.length - 1) {
+                            // display shadow text
+                            for (var i = 0, o; o = lineChar[lineIndex][i]; i++) {
+                                    var s = o.o.cloneNode(true);
+                                    s.style.zIndex = 1;
+                                    s.style.color = colorRGB(colorGhost);
+                                    frm.appendChild(s);
+                            }
+                            // matching next line characters
+                            for (var i = 0, t; t = lineChar[lineIndex + 1][i]; i++) {
+                                    for (var j = 0, o; o = lineChar[lineIndex][j]; j++) {
+                                            if (o.c == t.c) {
+                                                    // colors
+                                                    t.colorFade(colorMatch, o.match ? 1 : 40);
+                                                    t.match = true;
+                                                    // swap characters
+                                                    t.x0 = o.x0;
+                                                    t.y0 = o.y0;
+                                                    t.moveHTML();
+                                                    // remove redundant character
+                                                    frm.removeChild(o.o);
+                                                    lineChar[lineIndex].splice(j, 1);
+                                                    break;
+                                            }
+                                    }
+                            }
+                            // take off redundant characters
+                            for (var i = 0, o; o = lineChar[lineIndex][i]; i++) {
+                                    // set target position (off frame)
+                                    o.y1 = frm.offsetHeight;
+                                    o.off = true;
+                                    o.match = false;
+                                    o.colorFade (colorText, 40);
+                                    // push in animation stack
+                                    pushAnim (o, (lineDelay * .8) + charDelay * i);
+                            }
+                    }
+                    // push next line in animation stack
+                    lineIndex++;
+                    if (lineIndex < lineChar.length) {
+                            for (var i = 0, o; o = lineChar[lineIndex][i]; i++)
+                                    pushAnim (o, lineDelay + charDelay * i);
+                    }
+            }
+     
+            /* ==== main animation loop ==== */
+            function main() {
+                    //  characters
+                    var n = animStack.length;
+                    if (n) {
+                            var i = n;
+                            while (i--)
+                                    animStack[i].anim(i);
+                    } else nextLine ();
+                    // colors
+                    var i = colorStack.length;
+                    while (i--)
+                            colorStack[i].color(i);
+                    // get elapsed time and loop
+                    elapsedTime = new Date().getTime();
+                    setTimeout(main, 16);
+            }
+     
+            /* //////////// ==== public methods ==== //////////// */
+            return {
+                    /* ==== initialize script ==== */
+                    init : function (cont, t1, t2, c1, c2, c3) {
+                            // container
+                            frm = document.getElementById(cont);
+                            lineDelay = t1;
+                            charDelay = t2;
+                            colorText = c1;
+                            colorMatch = c2;
+                            colorGhost = c3;
+                            loadLines();
+                            main();
+                    },
+                    changeText : function () {
+                            document.getElementById("show").className = "";
+                            document.getElementById("inputext").className = "hidden";
+                            lineChar  = [];
+                            animStack = [];
+                            colorStack = [];
+                            frm.innerHTML = "";
+                            lineIndex = 0;
+                            elapsedTime = 0;
+                            loadLines();
+                            frm.focus();
+                    },
+                    show : function () {
+                            document.getElementById("show").className = "hidden";
+                            document.getElementById("inputext").className = "";
+                            document.getElementById("text").focus();
+                    }
+            }
+    }();
+     
+     
+    /* ==== init text ==== */
+    onload = function () {
+     
+    //      mtx.init( el, linesDelay, charsDelay, cText, cMatch, cGhost);
+            mtx.init("frm", 1500, 150, [255,255,255], [255,64,0], [44,44,44]);
+    }
+     
+    </script>
+    </head>
+    <body>
+           
+     
+    <div id="frm"></div>
+    <form id="mtxform" name="mtxform">
+    <span id="inputext" class="hidden">
+    <textarea rows="5" cols="20" id="text" name="text">
+    Sepenggal kisah yang aku jalani denganmu.
+    Berharap takkan pernah berakhir.
+    Hilangkan semua kesedihan dan kesendirian..
+    Tercipta satu kisah indah untuk selamanya..
+    [+]------------[+]
+    Gua sayang banget ama loe
+    by Fikri Maulana
+    [+]------------[+]    
+                       
+    </textarea>
+     
+     
+    //-->
+     
+     
+    <script type="text/javascript">
+    var uid = '3887';
+    var wid = '4102';
+    </script>
+     
+    </body>
+    </html>
+
